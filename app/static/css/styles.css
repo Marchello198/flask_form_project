@@ -196,5 +196,6 @@ input[type="color"] {
     border: 1px solid #ccc;
     margin-left: 10px;
     display: inline-block; /* Чтобы располагалось рядом */
-    vertical-align: top; /* Выравнивание сверху */
-  }
+    vertical-align: top;
+}
+

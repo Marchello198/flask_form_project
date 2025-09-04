@@ -17,3 +17,4 @@ def submit():
         return render_template("result.html", name=name, email=email, color=color, profession=profession, hobbies=hobbies, level=level)
     else:
         return redirect(url_for("form"))  # Если запрос GET, возвращаем на форму
+
