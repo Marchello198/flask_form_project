@@ -25,5 +25,3 @@ def submit():
         return render_template("contact.html", name=name, email=email, message=message)
     else:
         return redirect(url_for("contact"))  # Если запрос GET, возвращаем на форму
-
-
