@@ -26,3 +26,4 @@ def submit():
     else:
         return redirect(url_for("contact"))  # Если запрос GET, возвращаем на форму
 
+
