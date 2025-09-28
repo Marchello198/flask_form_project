@@ -3,6 +3,7 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+    <h1>Сегодня: {{ current_time.strftime('%A, %B %d, %Y, %H:%M:%S') }}.</h1>
     <h2>Welcome to My Flask App!</h2>
     <p>This is the home page of our website.</p>
     <img src="./static/img/logo.png" alt="Flask" class="logo">
